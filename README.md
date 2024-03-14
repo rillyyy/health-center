@@ -203,4 +203,4 @@ textcolor: https://tailwindcss.com/docs/text-color
   <div class="flex-1 order-4 p-2 border-4 border-blue-500">3번 강백호</div>
   <div class="flex-1 order-1 p-2 border-4 border-blue-500">4번 김민수</div>
 </div>
-```
+``` 
