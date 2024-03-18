@@ -15,3 +15,16 @@
 - copy-to-clipboard
 - Git/GitHub
 - 공공 API (보건소 API)
+
+## 프로젝트 빌드시 주의사항
+
+- Next.js 14 버전 Vercel 배포 적용 예외처리
+```tsx
+// Next.js 13 버전 이상 처리
+import { Suspense } from "react";
+
+        {/* Next.js 13 이상 버전 처리 */}
+        <Suspense fallback={<>Loading...</>}>
+          <MapSection />
+        </Suspense>
+```
